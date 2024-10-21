@@ -1,4 +1,5 @@
 {
+  "homepage": "https://hm22-code.github.io/three-project",
   "name": "vite-project",
   "private": true,
   "version": "0.0.0",
@@ -6,7 +7,9 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+		"deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "@types/three": "^0.169.0",
@@ -14,6 +17,7 @@
     "vite": "^5.4.8"
   },
   "dependencies": {
+    "gh-pages": "^6.2.0",
     "three": "^0.169.0"
   }
 }
