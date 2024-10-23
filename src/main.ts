@@ -1,6 +1,6 @@
 import './style.css'
-import typescriptLogo from './typescript.svg'
-import viteLogo from '/vite.svg'
+import typescriptLogo from './assets/typescript.svg'
+import viteLogo from './assets/vite.svg'
 import * as THREE from 'three';
 
 const scene = new THREE.Scene();
